@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="build/react.js"></script>
+    <script src="build/JSXTransformer.js"></script>
+    <script type="text/jsx" src="src/helloworld2.js"></script>
+  </head>
+  <body>
+    <div id="my-div"></div>
+    <!--
+    make sure "my-div" is also used in js file in getElementById('my-div')
+    if they are different,
+    Uncaught Error: Invariant Violation: _registerComponent(...): Target container is not a DOM element.
+    -->
+    </script>
+  </body>
+</html>
